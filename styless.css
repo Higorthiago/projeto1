@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+header{
+  background-color:  #f2f2f2;
+  height: 95px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav{
+  width: 60%;
+
+}
+
+ul{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  transition:.5s;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover{
+  color:#d21617;
+}
+
+.actor-cards-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  background-color: black;
+  align-items: center;
+}
+
+.cards-content{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr);
+  column-gap: 30px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.card{
+  margin-top: 15px;
+  width: 410px;
+  height: 600px;
+  background-size: cover;
+  flex-direction: column;
+  background-position: 50% 50% ;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: flex-end;
+  transition: 1s;
+  display: flex;
+  padding: 0 0 20px 10px;
+  font-family: 'Kdam Thmor Pro', sans-serif;      
+}
+
+.banner-1{
+  background-image: url('https://www.guiadasemana.com.br/contentFiles/image/2018/02/MOV/galeria/6720_w840h525_1518198612deadpool-b.jpg');
+}
+
+.banner-2{
+  background-image: url('https://4.bp.blogspot.com/-25sXjfp3VRA/Vp24FgSb8ZI/AAAAAAAACxw/HRBW6zYSOO0/s1600/filme%2Bdeadpool%2Bimagens%2B5.png');
+}
+
+.banner-3{
+  background-image: url('https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/f/f/e/32a6-756f-4ae6-bfdc-09e62ce09a21');
+}
+
+.banner-4{
+  background-image: url('https://i.pinimg.com/originals/7e/43/4f/7e434f4547c63c57bf1ea1a7a1010847.jpg');
+}
+
+.banner-5{
+  background-image: url('https://veja.abril.com.br/wp-content/uploads/2016/05/alx_filme-20160201-27_original.jpeg?quality=70&strip=info&w=817');
+}
+
+.banner-6{
+  background-image: url('https://2.bp.blogspot.com/-OMWnzw_yvjc/VruVZNqFEnI/AAAAAAAAfVQ/UG9YYmb904E/s1600/Deadpool_4.jpg');
+}
+
+.card:hover{
+  transform: scale(1.02);
+}
